@@ -17,7 +17,7 @@ const cors = require('cors');
 app.use(cors());
 
 /* Initializing the main project folder */
-app.use(express.static('website'));
+app.use(express.static('dist'));
 
 const port = 3000;
 
