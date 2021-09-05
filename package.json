@@ -1,15 +1,18 @@
 {
-  "name": "weather-app",
+  "name": "udacity-travel-app",
   "version": "1.0.0",
-  "description": "mo-wheather-app",
-  "main": "server.js",
+  "description": "mo-travel-app",
+  "main": "index.js",
   "scripts": {
-    "test": "^C",
-    "start": "node server.js"
+    "build": "webpack",
+    "test": "jest",
+    "start": "node src/server/index.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack-dev-server  --config webpack.dev.js --open"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmoha-199/weather-app.git"
+    "url": "git+https://github.com/mmoha-199/udacity-travel-app.git"
   },
   "keywords": [
     "weather",
@@ -18,9 +21,9 @@
   "author": "mohamed ben hamed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmoha-199/weather-app/issues"
+    "url": "https://github.com/mmoha-199/udacity-travel-app/issues"
   },
-  "homepage": "https://github.com/mmoha-199/weather-app#readme",
+  "homepage": "https://github.com/mmoha-199/udacity-travel-app#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
