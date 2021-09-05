@@ -1,5 +1,5 @@
 /* Empty JS object to act as endpoint for all routes */
-
+const projectData = {};
 
 // Express to run server and routes
 const express = require('express');
@@ -17,7 +17,7 @@ const cors = require('cors');
 app.use(cors());
 
 /* Initializing the main project folder */
-app.use(express.static('dist'));
+app.use(express.static('udacity-travel-app'));
 
 const port = 3000;
 

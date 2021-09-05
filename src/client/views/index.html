@@ -11,32 +11,69 @@
 
         <header>
             <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
+                Travel Planner
             </div>
         </header>
 
         <main>
             <section>
-                <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" value="" name="input" placeholder="enter valid url or text">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                <div>
+                    <h3>My Trips:</h3>
+                    <button>add trip</button>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <button>add packing list</button>
+                    <button>add lodging info</button>
+                    <button>add notes</button>
+                </div>
+                <form class="">
+                    <div>
+                        <h4>My trip to:</h4>
+                        <p id="city">Paris</p>
+                        <p id="country">France</p>
+
+                    </div>
+                    <div>
+                        <h4>Departing:</h4>
+                        <p id="date">02/12/2021</p>
+                    </div>
+                    <div>
+                        <h6>Flight Info</h6>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <button>save trip</button>
+                        <button>remove trip</button>
+                    </div>
+                    <p>Paris,France is 220 days away</p>
+                    <p>Typical weather for then is:</p>
+                    <p>high - 46, Low - 35</p>
+                    <p>Mostly cloudy throughout the day.</p>
                 </form>
             </section>
 
             <section>
-                <strong>Form Results:</strong>
-                <div id="results">
-                    <ul>
-                        <div id = "obj"><li></li></div>
-                        <div id = "confidence"><li></li></div>
-                        <div id = "polarity"><li></li></div>
-                        <div id = "agreement"><li></li></div>
-                        <div id = "ironic"></div>
-                        </ul>
-                </div>
+                <form action="">
+                    <div>
+                        <h4>My trip to:</h4>
+                        <input type="text" placeholder="Enter Location">
+                    </div>
+                    <div>
+                        <h4>Departing:</h4>
+                        <input type="text" placeholder="mm/dd/yyyy">
+                    </div>
+                    <div>
+                        <button>save trip</button>
+                        <button>remove trip</button>
+                    </div>
+                  
+                </form>
             </section>
         </main>
 
